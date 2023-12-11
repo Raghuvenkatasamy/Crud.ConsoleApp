@@ -7,7 +7,7 @@ namespace MobileDetails.ConsoleApp
         static void Main(string[] args)
         {
             MenuDriven _MDT = new MenuDriven();
-            _MDT.MbileDetails();
+            _MDT.MobileDetails();
         }
     }
 }

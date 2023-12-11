@@ -15,7 +15,7 @@ namespace MobileDetails.ConsoleApp
             _MDtl = new MobileDetailsRepository();
         }
 
-        public void MbileDetails()
+        public void MobileDetails()
         {
 
 
