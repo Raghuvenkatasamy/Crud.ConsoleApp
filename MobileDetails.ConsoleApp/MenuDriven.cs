@@ -85,11 +85,10 @@ namespace MobileDetails.ConsoleApp
                         }
                         else
                         {
+                            Console.WriteLine($"{"MobileID"}\t{"Name"}\t{"ManufactureName"}\t{"DateofMaufacture"}\t{"YearofMaufacture"}\t{"Quantity"}");
+
                             foreach (var p in record)
                             {
-
-
-                                //Console.WriteLine($"{"MobileID"}\t{"Name"}\t{"ManufactureName"}\t{"DateofMaufacture"}\t{"YearofMaufacture"}\t{"Quantity"}");
                                 Console.WriteLine($"{p.MobileId}\t\t{p.Name}\t\t{p.ManufactureName}\t\t{p.DateofMaufacture.ToString("d")}\t\t{p.YearofMaufacture}\t\t{p.Quantity}");
 
                             }
@@ -105,10 +104,9 @@ namespace MobileDetails.ConsoleApp
                         }
                         else
                         {
-
+                            Console.WriteLine($"{"MobileID"}\t{"Name"}\t{"ManufactureName"}\t{"DateofMaufacture"}\t{"YearofMaufacture"}\t{"Quantity"}");
                             foreach (var p in dlt)
                             {
-                                //Console.WriteLine($"{"MobileID"}\t{"Name"}\t{"ManufactureName"}\t{"DateofMaufacture"}\t{"YearofMaufacture"}\t{"Quantity"}");
                                 Console.WriteLine($"{p.MobileId}\t{p.Name}\t{p.ManufactureName}\t{p.DateofMaufacture.ToString("d")}\t{p.YearofMaufacture}\t{p.Quantity}");
                             }
                         }
