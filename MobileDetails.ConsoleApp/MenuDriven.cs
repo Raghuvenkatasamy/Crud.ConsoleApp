@@ -115,7 +115,7 @@ namespace MobileDetails.ConsoleApp
                         break;
 
                 }
-            } while (a <= 5);
+            } while (a < 5);
             Console.WriteLine("Invail Number");
 
         }
